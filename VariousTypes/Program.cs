@@ -44,6 +44,16 @@ namespace VariousTypes
             Console.WriteLine(ft);
             Console.WriteLine(db);
             Console.WriteLine(dec);
+
+
+            ///Tipo Booleano
+            
+            if(inteiro > 2)
+                Console.WriteLine(true);
+
+            if(2 > inteiro)
+                Console.WriteLine(false);
+
         }
     }
 }
