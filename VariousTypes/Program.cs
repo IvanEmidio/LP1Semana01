@@ -15,6 +15,10 @@ namespace VariousTypes
             uint uinteiro = 8U;
             ulong ulg = 700UL;
             char caracter = 'a';
+            char caracter1 = '\u260e';
+            char caracter2 = '\u2708';
+            char caracter3 = '\u2605';
+
 
             Console.WriteLine(sb);
             Console.WriteLine(st);
@@ -25,6 +29,9 @@ namespace VariousTypes
             Console.WriteLine(uinteiro);
             Console.WriteLine(ulg);
             Console.WriteLine(caracter);
+            Console.WriteLine(caracter1);
+            Console.WriteLine(caracter2);
+            Console.WriteLine(caracter3);
         }
     }
 }
