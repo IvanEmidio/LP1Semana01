@@ -4,29 +4,14 @@ namespace VariousTypes
 {
     public class Program
     {
-        static int num = 1;
-        static uint _num = 2U;
-        static long _num1 = 3L;
-        static ulong _num2 = 3UL;
-        static char _backspace = '\u0008';
-        static char _tab = '\u0009';
-
-        static float _float = 3.2f;
-        static double _double = 3.2345;
-
-        static decimal _decimal = 4.436534m;
-
-        static bool _bool = true;
-
-        static bool _bool2 = false;
-
+    
         private static void Main(string[] args)
         {
             int num = 1;
             uint _num = 2U;
             long _num1 = 3L;
             ulong _num2 = 3UL;
-            
+
             char _backspace = '\u0008';
             char _tab = '\u0009';
 
