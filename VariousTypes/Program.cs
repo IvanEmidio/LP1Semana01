@@ -16,6 +16,10 @@ namespace VariousTypes
 
         static decimal _decimal = 4.436534m;
 
+        static bool _bool = true;
+
+        static bool _bool2 = false;
+
         private static void Main(string[] args)
         {
             Console.WriteLine($"Isto é um inteiro normal: {num}");
@@ -29,6 +33,9 @@ namespace VariousTypes
             Console.WriteLine($"Isto é um float com o seu literal: {_float}");
             Console.WriteLine($"Isto é um Double: {_double}");
             Console.WriteLine($"Isto é um Decimal com o seu literal: {_decimal}");
+
+            Console.WriteLine($"Isto é uma variavel bool: {_bool}");
+            Console.WriteLine($"Isto é outra variavel bool: {_bool2}");
 
 
         }
