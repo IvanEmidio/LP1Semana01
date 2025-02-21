@@ -17,10 +17,10 @@ namespace Percentagem
             float _num2 = float.Parse(num2);
             float _num3 = float.Parse(num3);
             float _num4 = float.Parse(num4);
-            Console.WriteLine($"{_num1:p2}");
-            Console.WriteLine($"{_num2:p2}");
-            Console.WriteLine($"{_num3:p2}");
-            Console.WriteLine($"{_num4:p2}");
+            Console.WriteLine($"{_num1,7:p2}");
+            Console.WriteLine($"{_num2,7:p2}");
+            Console.WriteLine($"{_num3,7:p2}");
+            Console.WriteLine($"{_num4,7:p2}");
 
         }
     }
